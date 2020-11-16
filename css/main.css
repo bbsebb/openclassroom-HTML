@@ -19,3 +19,7 @@ h1 {
     box-shadow: 6px 6px 0px black;
 }
  
+ul {
+    list-style: none;
+    text-align: justify;
+}
