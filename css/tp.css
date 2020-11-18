@@ -1,0 +1,30 @@
+@font-face{
+    font-family: 'BallparkWeiner';
+    src:    url('../polices/ballpark.eot') format('embedded-opentype'),
+            url('../polices/ballpark.svg') format('svg'),
+            url('../polices/ballpark.ttf') format('truetype'),
+            url('../polices/ballpark.woff') format('wolff')
+}
+
+@font-face{
+    font-family: 'Day Roman';
+    src:    url('../polices/dayrom.eot') format('embedded-opentype'),
+            url('../polices/dayrom.svg') format('svg'),
+            url('../polices/dayrom.ttf') format('truetype'),
+            url('../polices/dayrom.woff') format('wolff')
+}
+
+body {
+    background-image: url('../images/fond_jaune.png');
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    columns: #181818;
+}
+
+header h1 {
+    font-family: 'BallparkWeiner';
+}
+
+section h1, footer h1, nav a {
+    font-family: 'Day Roman';
+    text-transform: uppercase;
+}
