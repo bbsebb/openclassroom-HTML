@@ -27,6 +27,7 @@ body>header {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-bottom: 10px;
 }
 body>header img {
     width: 59px;
@@ -68,7 +69,10 @@ body>header a:hover{
     border-bottom: 3px solid #760001;
 }
 
-
+main header {
+    background: url("../images/sanfrancisco.jpg");
+    height: 219px;
+}
 
 
 
