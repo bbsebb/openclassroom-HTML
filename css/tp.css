@@ -18,11 +18,60 @@ body {
     background-image: url('../images/fond_jaune.png');
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     columns: #181818;
+    width: 900px;
+    margin:auto;
 }
 
-header h1 {
-    font-family: 'BallparkWeiner';
+body>header {
+    background:bottom repeat-x  url(../images/separateur.png) ;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
 }
+body>header img {
+    width: 59px;
+    height: 60px;
+}
+body>header h1 {
+    font-family: 'BallparkWeiner', serif;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin:0px;
+}
+body>header h2 {
+    font-family: 'Day Roman', serif;
+    font-size: 1.1em;
+    margin-top: 0px;
+    font-weight: normal;
+    clear:left;
+    text-align: right;
+}
+
+body>header ul{
+    list-style: none; 
+    display:flex;
+}
+
+body>header li{
+    margin-right: 15px;
+}
+
+body>header a{
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+body>header a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+
+
+
+
 
 section h1, footer h1, nav a {
     font-family: 'Day Roman';
