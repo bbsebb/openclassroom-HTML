@@ -72,7 +72,41 @@ body>header a:hover{
 main header {
     background: url("../images/sanfrancisco.jpg");
     height: 219px;
+    position:relative;
+    border-radius: 5px;
+    color: white;
+    font-size: 0.8em;
+    margin-bottom:25px
+    
 }
+
+#desc_img{
+    background:  rgba(24,24,24,0.8);
+    position: absolute;
+    bottom:0px;
+    width: 100%;
+    padding: 15px 0px 15px 4px;
+  
+    border-radius: 0px 0px 5px 5px;
+    box-sizing: border-box;
+}
+#desc_img a{
+    
+
+    position: absolute;
+    right: 5px;
+    bottom: 8px;
+    background: url('../images/fond_degraderouge.png') repeat-x;  
+    border: 1px solid #760001;
+    border-radius: 5px;
+    font-size: 1.2em;
+    text-align: center;
+    padding: 6px 3px;
+    color: white;
+    text-decoration: none;
+    
+}
+
 
 
 
