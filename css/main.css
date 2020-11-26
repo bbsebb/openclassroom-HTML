@@ -3,23 +3,46 @@
     font-style: normal;
     font-weight: 300;
     font-display: swap;
-    src:  url(https://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvA88GcG7lU.woff2) format('woff2');
-  }
+    src: url(https://fonts.gstatic.com/s/bigshouldersstencildisplay/v1/6aeX4LS6U6pR_bp5b_t2ugOhHWFcxSGP9ttD96KCb8xPyvA88GcG7lU.woff2) format('woff2');
+}
 
 body {
-    background-image: url("https://mdn.mozillademos.org/files/11991/startransparent.gif");
-    font-family: cursive,'Big Shoulders Stencil Display';
+    background-image: url("../images/greyzz.png");
+    font-family: cursive, 'Big Shoulders Stencil Display';
 }
 
+#lisere {
+    height: 80vh;
+    float:left;
+    width: 50px;
+    background: url("../images/lodyas.png");
+    border-radius: 10px;
+}
+
+figure {
+    margin: auto;
+    width: 100px;
+}
 
 h1 {
-    color:red;
+    color: red;
     text-align: center;
-    border: 1px groove black  ;
+    border: 1px groove black;
     box-shadow: 6px 6px 0px black;
+    margin-left:60px;
 }
- 
+
 ul {
     list-style: none;
     text-align: justify;
 }
+
+main {
+    display: flex;
+    margin-left:60px;
+}
+
+main section {
+    width: 33%;
+}
+

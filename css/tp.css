@@ -18,7 +18,7 @@ body {
     background-image: url('../images/fond_jaune.png');
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     columns: #181818;
-    width: 900px;
+    
     margin:auto;
 }
 
@@ -68,16 +68,28 @@ body>header a:hover{
     color: #760001;
     border-bottom: 3px solid #760001;
 }
+main {
+    display: flex;
+    flex-wrap: wrap;
+}
 
+main section {
+    flex:1 1 650px;
+    
+}
+
+main aside {
+    flex:0 0 250px;
+}
 main header {
     background: url("../images/sanfrancisco.jpg");
     height: 219px;
-    position:relative;
+    flex: 1 1 100%;
     border-radius: 5px;
     color: white;
     font-size: 0.8em;
-    margin-bottom:25px
-    
+    margin-bottom:25px;
+    position:relative;
 }
 
 #desc_img{
@@ -86,14 +98,13 @@ main header {
     bottom:0px;
     width: 100%;
     padding: 15px 0px 15px 4px;
-  
     border-radius: 0px 0px 5px 5px;
     box-sizing: border-box;
 }
 #desc_img a{
     
 
-    position: absolute;
+
     right: 5px;
     bottom: 8px;
     background: url('../images/fond_degraderouge.png') repeat-x;  
@@ -107,6 +118,11 @@ main header {
     
 }
 
+
+article h1 img{
+
+    vertical-align: middle;
+}
 
 
 
